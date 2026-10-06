@@ -1,0 +1,19 @@
+.env
+
+__pycache__/
+*.pyc
+
+venv/
+.venv/
+
+# Datasets
+*.csv
+
+# Logs
+*.log
+
+# Cache
+.cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
