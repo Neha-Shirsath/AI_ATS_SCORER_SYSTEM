@@ -20,6 +20,7 @@ ALLOWED_ORIGINS = [
     'https://resumeatsscorersystem.streamlit.app/'
 ]  
 
+
 #file 
 MAX_FILE_SIZE_MB=5
 MAX_FILE_SIZE_BYTES=MAX_FILE_SIZE_MB*1024*1024
