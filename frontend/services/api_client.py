@@ -62,7 +62,6 @@ def delete_history_entry(analysis_id: str, access_token: str) -> None:
     )
     response.raise_for_status()
 
-
 def generate_pdf(analysis_data: Dict[str, Any], access_token: str) -> bytes:
     response = requests.post(
         f"{_backend_url()}/api/v1/generate-pdf",
